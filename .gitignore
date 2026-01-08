@@ -1,0 +1,11 @@
+node_modules
+out
+dist
+dist_exe
+release
+build
+.DS_Store
+.env
+.idea
+.vscode
+*.log
