@@ -1,34 +1,19 @@
-# my-rcon-tool
+# Rust RCON Tool
 
-An Electron application with React and TypeScript
+ElectronとReactで作られた、Rustサーバー管理用のRCONクライアントツールです。
 
-## Recommended IDE Setup
+## 特徴
+- 📡 **WebRCON対応**: Rustサーバーへ安全に接続
+- 🌎 **国旗表示**: プレイヤーの接続国を自動判別して表示
+- 🛡️ **ログフィルター**: 不要なBanログを隠蔽し、キルログは見逃さない
+- 📋 **簡単操作**: SteamIDのコピーや、Kick/Banがボタン一つで可能
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+## 使い方
+1. 右上の設定欄にIP、ポート、パスワードを入力
+2. "Connect" ボタンをクリック
+3. コンソールでコマンド送信やチャットの確認が可能
 
-## Project Setup
-
-### Install
-
+## インストール方法 (開発者向け)
 ```bash
-$ npm install
-```
-
-### Development
-
-```bash
-$ npm run dev
-```
-
-### Build
-
-```bash
-# For windows
-$ npm run build:win
-
-# For macOS
-$ npm run build:mac
-
-# For Linux
-$ npm run build:linux
-```
+npm install
+npm run dev
