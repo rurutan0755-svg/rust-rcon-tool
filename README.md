@@ -1,19 +1,19 @@
 # Rust RCON Tool
 
-ElectronとReactで作られた、Rustサーバー管理用のRCONクライアントツールです。
+An RCON client tool designed for managing Rust servers, built with Electron and React.
 
-## 特徴
-- 📡 **WebRCON対応**: Rustサーバーへ安全に接続
-- 🌎 **国旗表示**: プレイヤーの接続国を自動判別して表示
-- 🛡️ **ログフィルター**: 不要なBanログを隠蔽し、キルログは見逃さない
-- 📋 **簡単操作**: SteamIDのコピーや、Kick/Banがボタン一つで可能
+## Features
+- 📡 **WebRCON Support**: Securely connect to your Rust server.
+- 🌎 **Geo-Location Flags**: Automatically detects and displays country flags based on player IP addresses.
+- 🛡️ **Smart Log Filtering**: Automatically hides clutter from large ban lists while preserving important kill logs.
+- 📋 **Easy Management**: Copy SteamIDs and Kick/Ban players with a single click.
 
-## 使い方
-1. 右上の設定欄にIP、ポート、パスワードを入力
-2. "Connect" ボタンをクリック
-3. コンソールでコマンド送信やチャットの確認が可能
+## Usage
+1. Enter your server IP, Port, and RCON Password in the settings panel (top right).
+2. Click the "Connect" button.
+3. Use the console to monitor chat/logs and send commands.
 
-## インストール方法 (開発者向け)
+## Installation (For Developers)
 ```bash
 npm install
 npm run dev
