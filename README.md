@@ -13,7 +13,9 @@ An RCON client tool designed for managing Rust servers, built with Electron and 
 2. Click the "Connect" button.
 3. Use the console to monitor chat/logs and send commands.
 
-## Installation (For Developers)
-```bash
-npm install
-npm run dev
+## Installation (Build from source)
+As this is a Beta version, an installer is not yet available.
+
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm run dev` (for development) or `npm run build`
